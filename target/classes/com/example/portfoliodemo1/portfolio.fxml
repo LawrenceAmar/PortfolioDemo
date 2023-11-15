@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.ScrollPane?>
+
+<ScrollPane xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.portfoliodemo1.StudentPortfolioController">
+    <content>
+        <VBox>
+            <!-- Portfolio Item 1 -->
+            <HBox fx:id="portfolioItem1" spacing="10">
+                <ImageView fx:id="imageView1" fitHeight="200.0" fitWidth="200.0" />
+                <VBox spacing="10">
+                    <Label fx:id="titleLabel1" style="-fx-font-weight: bold;" />
+                    <Label fx:id="descriptionLabel1" wrapText="true" />
+                </VBox>
+            </HBox>
+
+            <!-- Portfolio Item 2 -->
+            <HBox fx:id="portfolioItem2" spacing="10">
+                <ImageView fx:id="imageView2" fitHeight="200.0" fitWidth="200.0" />
+                <VBox spacing="10">
+                    <Label fx:id="titleLabel2" style="-fx-font-weight: bold;" />
+                    <Label fx:id="descriptionLabel2" wrapText="true" />
+                </VBox>
+            </HBox>
+
+            <!-- Portfolio Item 3 -->
+            <HBox fx:id="portfolioItem3" spacing="10">
+                <ImageView fx:id="imageView3" fitHeight="200.0" fitWidth="200.0" />
+                <VBox spacing="10">
+                    <Label fx:id="titleLabel3" style="-fx-font-weight: bold;" />
+                    <Label fx:id="descriptionLabel3" wrapText="true" />
+                </VBox>
+            </HBox>
+        </VBox>
+    </content>
+</ScrollPane>
